@@ -1,5 +1,5 @@
 class Person:
-    def __init__(self, name, sons=[], daughters=[], is_alive=True):
+    def __init__(self, name, sons, daughters, is_alive=True):
         self.mName = name
         self.mSons = sons
         self.mDaughters = daughters
